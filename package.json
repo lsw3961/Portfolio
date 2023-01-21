@@ -5,7 +5,11 @@
   "private": true,
   "dependencies": {
     "@craco/craco": "^5.9.0",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
     "@heroicons/react": "^1.0.1",
+    "@mui/icons-material": "^5.11.0",
+    "@mui/material": "^5.11.5",
     "craco": "^0.0.3",
     "gh-pages": "^4.0.0",
     "react": "^17.0.2",

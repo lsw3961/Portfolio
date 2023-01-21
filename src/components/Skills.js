@@ -1,8 +1,19 @@
 import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid";
 import React from "react";
 import { skills } from "../data";
+import Accordion from '@mui/material/Accordion';
+import AccordionSummary from '@mui/material/AccordionSummary';
+import AccordionDetails from '@mui/material/AccordionDetails';
+import Typography from '@mui/material/Typography';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 export default function Skills() {
+
+  const [expanded, setExpanded] = React.useState(false);
+
+  const handleChange = (panel) => (event, isExpanded) => {
+    setExpanded(isExpanded ? panel : false);
+  };
   return (
     <section id="skills">
       <div className="container px-5 py-10 mx-auto">
@@ -17,15 +28,24 @@ export default function Skills() {
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
           {skills.map((skill) => (
-            <div key={skill} className="p-2 sm:w-1/2 w-full">
-              <div className="bg-gray-800 rounded flex p-4 h-full items-center">
-                <BadgeCheckIcon className="text-green-400 w-6 h-6 flex-shrink-0 mr-4" />
-                <span className="title-font font-medium text-white">
-                  {skill}
-                </span>
-              </div>
-            </div>
+            <Accordion expanded={expanded === `${skill.title}`} onChange={handleChange(`${skill.title}`)}>
+              <AccordionSummary
+                expandIcon={<ExpandMoreIcon />}
+                aria-controls={skill.title + "bh-content"}
+                id={skill.title + "bh-header"}
+                backgr
+              >
+                <Typography sx={{ color: 'text.secondary' }}>{skill.title}</Typography>
+              </AccordionSummary>
+              <AccordionDetails>
+                <Typography>
+                  {skill.content}
+                </Typography>
+              </AccordionDetails>
+            </Accordion>
+
           ))}
+
         </div>
       </div>
     </section>

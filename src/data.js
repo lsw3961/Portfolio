@@ -42,16 +42,53 @@ export const testimonials = [
 ];
 
 export const skills = [
-  "Level / Enviromental Design",
-  "Gameplay Design / Scripting",
-  "3D Modelling, Texturing",
-  "AI Encounter Design",
-  "Unity",
-  "Unreal Engine 4",
-  "HTML/CSS/Javascript",
-  "Skyrim Creation Kit",
-  "Autodesk Maya",
-  "Github",
-  "React",
-  "Node",
+  {
+    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, reiciendis!",
+    title: "Level / Enviromental Design"
+  },
+  {
+    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, reiciendis!",
+    title: "Gameplay Design / Scripting"
+  },
+  {
+    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, reiciendis!",
+    title: "3D Modelling, Texturing"
+  },
+  {
+    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, reiciendis!",
+    title: "Unity"
+  },
+  {
+    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, reiciendis!",
+    title: "Unreal Engine 4"
+  },
+  {
+    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, reiciendis!",
+    title: "HTML/CSS/Javascript"
+
+  },
+  {
+    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, reiciendis!",
+    title: "Skyrim Creation Kit"
+
+  },
+  {
+    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, reiciendis!",
+    title: "Autodesk Maya"
+
+  },
+  {
+    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, reiciendis!",
+    title: "Github"
+  },
+  {
+    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, reiciendis!",
+    title: "React"
+
+  },
+  {
+    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, reiciendis!",
+    title: "Node"
+  },
 ];
+
