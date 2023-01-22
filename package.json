@@ -4,6 +4,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@coreui/react": "^4.5.1",
     "@craco/craco": "^5.9.0",
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
@@ -14,7 +15,7 @@
     "gh-pages": "^4.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "^1.1.5"
+    "tw-elements": "^1.0.0-alpha13"
   },
   "scripts": {
     "start": "craco start",

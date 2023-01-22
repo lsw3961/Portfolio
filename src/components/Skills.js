@@ -1,19 +1,7 @@
 import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid";
 import React from "react";
 import { skills } from "../data";
-import Accordion from '@mui/material/Accordion';
-import AccordionSummary from '@mui/material/AccordionSummary';
-import AccordionDetails from '@mui/material/AccordionDetails';
-import Typography from '@mui/material/Typography';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-
 export default function Skills() {
-
-  const [expanded, setExpanded] = React.useState(false);
-
-  const handleChange = (panel) => (event, isExpanded) => {
-    setExpanded(isExpanded ? panel : false);
-  };
   return (
     <section id="skills">
       <div className="container px-5 py-10 mx-auto">
@@ -26,28 +14,53 @@ export default function Skills() {
             These are a few of my skills and different programs that I have picked up over the years.
           </p>
         </div>
-        <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+        <div class="accordion accordion-flush w-1/2 flex flex-wrap flex-row lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2" id="accordionFlushExample">
+
           {skills.map((skill) => (
-            <Accordion expanded={expanded === `${skill.title}`} onChange={handleChange(`${skill.title}`)}>
-              <AccordionSummary
-                expandIcon={<ExpandMoreIcon />}
-                aria-controls={skill.title + "bh-content"}
-                id={skill.title + "bh-header"}
-                backgr
-              >
-                <Typography sx={{ color: 'text.secondary' }}>{skill.title}</Typography>
-              </AccordionSummary>
-              <AccordionDetails>
-                <Typography>
+
+            <div class="accordion-item accordian-flush w-1/2 p-2">
+
+              <h2 class="accordion-flush-header accordian-flush mb-0 bg-gray-800 break-words" id={"flush-heading" + skill.index}>
+                <button class="
+                  accordion-button
+                  collapsed
+                  relative
+                  flex
+                  items-center
+                  w-full
+                  py-4
+                  px-5
+                  title-font
+                  bg-gray-800
+                  border-0
+                  rounded-md
+                  transition
+                  focus:outline-none
+                " type="button" data-bs-toggle="collapse" data-bs-target={"#collapse" + skill.index} aria-expanded="false"
+                >
+                  <BadgeCheckIcon className="text-green-400 w-6 h-6 flex-shrink-0 mr-4" />
+                  {skill.title}
+                </button>
+              </h2>
+              <div id={"collapse" + skill.index} class="accordion-collapse collapse collapse" aria-labelledby={"heading" + skill.index}>
+                <div class="accordion-body-flush">
+                  {skill.image != "" &&
+                    <img
+                      alt="gallery"
+                      className=""
+                      src={skill.image}
+                    />
+                  }
                   {skill.content}
-                </Typography>
-              </AccordionDetails>
-            </Accordion>
+                </div>
+              </div>
+            </div>
 
           ))}
-
         </div>
+
+
       </div>
-    </section>
+    </section >
   );
 }
