@@ -37,44 +37,50 @@ export const skills = [
   {
     content: "here is a level that I first did a few rough sketches of what I wanted it to be, then I improved those sketches by turning them into design documents focusing on the number of enemies, items, interactions, and paths. Finally I developed the level using the Far Cry 5 Arcade editor and then ran it though a few weeks of qa testing to determine what needed improvement.",
     title: "Level / Enviromental Design",
-    image: "",
+    link: "https://github.com/lsw3961?tab=repositories",
+    image: "./placeholder.jpg",
     index: 0
   },
   {
     content: "Below is a link to a quick webgame that I developed using Pixie, within it is an entire finite-state machine game focused on wave based survival.",
     title: "Gameplay Design / Scripting",
-    image: "",
+    link: "",
+    image: "./placeholder.jpg",
     index: 1
 
   },
   {
     content: "This below is a 3d modelling work that I did, in this scene I modeled an entire low poly castle including bushes, walls, gates, stalls, and barrels.",
     title: "3D Modelling, Texturing",
+    link: "",
     image: "",
-
     index: 2
   },
   {
     content: "Unity has been my primary engine for 5 years now and this is a photo of my first ever game built in Unity.",
     title: "Unity",
+    link: "",
     image: "",
     index: 3
   },
   {
     content: "Unreal Engine 4 is a newer tool to me but this project was my attempt as establishing the basics and getting a feel for C++ programming and blueprinting.",
     title: "Unreal Engine 4",
+    link: "",
     image: "",
     index: 4
   },
   {
     content: "Here is an interactive potion making website I made last semester. its a small but effecient and fluid interactive app.",
     title: "HTML / CSS / Javascript",
+    link: "",
     image: "",
     index: 5
   },
   {
     content: "Below is a video link to a project that I was a part of, I designed the quests and NPCs",
     title: "Skyrim Creation Kit",
+    link: "",
     image: "",
     index: 6
 
@@ -82,6 +88,7 @@ export const skills = [
   {
     content: "Here is one of my favorites projects that I modeled in Autodesk Maya",
     title: "Autodesk Maya",
+    link: "",
     image: "",
     index: 7
 
@@ -89,12 +96,14 @@ export const skills = [
   {
     content: "Below is the link to my personal reposity, this entire website and most of my work is available on my public GitHub repositories",
     title: "Github",
+    link: "",
     image: "",
     index: 8
   },
   {
     content: "This website is my example for React use as this website was built using React JS",
     title: "React",
+    link: "",
     image: "",
     index: 9
 
@@ -102,12 +111,14 @@ export const skills = [
   {
     content: "This website is my example for working with Node and was built using it.",
     title: "Node",
+    link: "",
     image: "",
     index: 10
   },
   {
     content: "The Icon at the top of the page as well as this design here are just some of my examples for the kind of work that I have done.",
     title: "Photoshop/Illustrator",
+    link: "",
     image: "",
     index: 10
   },

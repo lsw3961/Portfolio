@@ -44,14 +44,27 @@ export default function Skills() {
               </h2>
               <div id={"collapse" + skill.index} class="accordion-collapse collapse collapse" aria-labelledby={"heading" + skill.index}>
                 <div class="accordion-body-flush">
-                  {skill.image != "" &&
-                    <img
-                      alt="gallery"
-                      className=""
-                      src={skill.image}
-                    />
-                  }
                   {skill.content}
+                  {skill.image != "" && skill.link != "" &&
+                    <div className="flex relative">
+                      <a href={skill.link} target="_blank" rel="noreferrer" className="w-full object-cover object-center">
+                        <img
+                          alt="gallery"
+                          className="inset-0 w-full h-48 object-cover object-center"
+                          src={skill.image}
+                        />
+                      </a>
+                    </div>
+                  }
+                  {skill.image != "" && skill.link == "" &&
+                    <div className="flex relative">
+                      <img
+                        alt="gallery"
+                        className="inset-0 w-full h-48 object-cover object-center"
+                        src={skill.image}
+                      />
+                    </div>
+                  }
                 </div>
               </div>
             </div>
