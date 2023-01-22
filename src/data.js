@@ -41,7 +41,7 @@ export const skills = [
     index: 0
   },
   {
-    content: "Here is a ",
+    content: "Below is a link to a quick webgame that I developed using Pixie, within it is an entire finite-state machine game focused on wave based survival.",
     title: "Gameplay Design / Scripting",
     image: "",
     index: 1
@@ -102,6 +102,12 @@ export const skills = [
   {
     content: "This website is my example for working with Node and was built using it.",
     title: "Node",
+    image: "",
+    index: 10
+  },
+  {
+    content: "The Icon at the top of the page as well as this design here are just some of my examples for the kind of work that I have done.",
+    title: "Photoshop/Illustrator",
     image: "",
     index: 10
   },
