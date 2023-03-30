@@ -5,53 +5,49 @@ export const projects = [
     description:
       "A realtime light based survival game with pathtracking AI developed for an international game jam where the team and I ranked top 20",
     image: "./dreamcatcher.gif",
+    bullets: ["•	Directed a team of 3 in the creation of an innovative Unity made game where our team ranked top 20 in a global competition.",
+              "•	Created real-time texture lighting for 2D sprites which emulates 3D lighting effects.",
+              "•	Developed an enemy AI with pathfinding movement incorporating Euclidian heuristic."],
     link: "https://lwhite322.itch.io/dreamcatcher",
-    css: "w-100 p-4 mx-20 h-100",
+    css: "sm:w-1/2 w-100 p-4",
     imageCSS: "absolute inset-0 w-full h-48 object-cover object-center"
   },
   {
     title: "Grapple",
     subtitle: "Infinite Runner",
     description:
-      "Grapple is a 3D parkour infinite runner with low gravity and real time physics applied through a grappling hook the player controls. Run fast and don't look back because one slip up and you're a goner.",
+      "Grapple is a 3D parkour infinite runner with low gravity and real time physics applied through a grappling hook the player controls.",
+      bullets: ["•	Collaborated with a team of 3 to create a 3D game with procedurally generated terrain and dynamic lighting made in Unity.",
+                "•	Organized and built a 3D art package created in Maya to be used for procedurally generate level terrain.",
+                "•	Employed text scripting in a C# framework to implement gameplay logic and debug game logic."],
     image: "./grapple.gif",
     link: "https://mhc4466.github.io/IGME320Project3/",
-    css: "sm:w-1/2 w-100 p-4",
+    css: "w-1/2 w-100 p-4",
     imageCSS: "absolute inset-0 w-full h-48 object-cover object-center"
 
 
   },
-  {
-    title: "Portal 2 Level",
-    subtitle: "Momentum is key",
-    description: "A level that I made in the Portal 2 sweetheart editor that focuses on using momentum to throw the player to where they should go.",
-    image: "./portal.gif",
-    link: "https://youtu.be/Xn622uBCV_0",
-    css: "sm:w-1/2 w-100 p-4",
-    imageCSS: "absolute inset-0 w-full h-48 object-cover object-center"
-
-  }
 ];
 
 export const skills = [
   {
-    content: "here is a level that I first did a few rough sketches of what I wanted it to be, then I improved those sketches by turning them into design documents focusing on the number of enemies, items, interactions, and paths. Finally I developed the level using the Far Cry 5 Arcade editor and then ran it though a few weeks of qa testing to determine what needed improvement.",
-    title: "Level / Enviromental Design",
+    content: "Games like Dreamcatcher and the current IP I am working on are the products of my AI gameplay programming. I very interested in building the tools that let designers create fun and interesting AIs without having to alter code themselves. Checkout my latest project to see how far my AI programming can go!",
+    title: "AI Gameplay Programming",
     link: "http://www.freepik.com",
     image: "./comingSoon.jpg",
     index: 0
   },
   {
     content: "Below is a link to a quick webgame that I developed using Pixie, within it is an entire finite-state machine game focused on wave based survival.",
-    title: "Gameplay Design / Scripting",
+    title: "Game Designing & Testing",
     link: "https://people.rit.edu/~lsw3961/235/project3/Game/",
     image: "./pixieGame.png",
     index: 1
 
   },
   {
-    content: "This below is a 3d modelling work that I did, in this scene I modeled an entire low poly castle including bushes, walls, gates, stalls, and barrels.",
-    title: "3D Modelling, Texturing",
+    content: "Every project I have done is a representation of my gameplay development. I am a programmer first and I have always focused on putting forward clean, readable, and easily modifyable code.",
+    title: "Game Application Development",
     link: "http://www.freepik.com",
     image: "./comingSoon.jpg",
     index: 2
@@ -64,63 +60,46 @@ export const skills = [
     index: 3
   },
   {
-    content: "Unreal Engine 4 is a newer tool to me but this project was my attempt as establishing the basics and getting a feel for C++ programming and blueprinting.",
-    title: "Unreal Engine 4",
-    link: "https://lwhite322.itch.io/hourglass",
-    image: "./unrealProject.png",
+    content: "C# is my most comforatble language and I have been working in it for 4 years now. I have experience using multiple engines from Unity to VMC and am very comfrotable reading and debuging almost all C# code.",
+    title: "C#",
+    link: "",
+    image: "",
     index: 4
   },
   {
-    content: "Here is an interactive potion making website I made last semester. its a small but effecient and fluid interactive app.",
-    title: "HTML / CSS / Javascript",
-    link: "https://people.rit.edu/lsw3961/ISTE340/Project1/ScaffoldingForP1.html",
-    image: "./PotionWebsiteScreenshot.png",
+    content: "Unreal Engine 4 is a newer tool to me but this project was my attempt as establishing the basics and getting a feel for C++ programming and blueprinting.",
+    title: "Unreal Engine",
+    link: "https://lwhite322.itch.io/hourglass",
+    image: "./UnrealProject.png",
     index: 5
   },
   {
-    content: "Below is a video link to a project that I was a part of, I designed the quests and NPCs",
-    title: "Skyrim Creation Kit",
-    link: "https://www.youtube.com/watch?v=ncfjFhcpQAg&ab_channel=SamLambermont",
-    image: "./pandaMod.png",
+    content: "I have been programming in C++ for 6 years and have worked with everything from OpenGL to Unreal Engine. I've done multithreading, AI Pathfinding, OOP Strategies and more.",
+    title: "C++",
+    link: "",
+    image: "",
     index: 6
-
   },
   {
-    content: "Here is one of my favorites projects that I modeled in Autodesk Maya",
-    title: "Autodesk Maya",
-    link: "http://www.freepik.com",
-    image: "./comingSoon.jpg",
-    index: 7
-
+    content: "At my Co-op a large part of the work I was doing was batch testing my code and others to make sure that it all flowed smoothly. After adding new features we would often run back over our old code to ensure proper integration with new bugs or errors.",
+    title: "Software Testing",
+    link: "",
+    image: "",
+    index: 7,
   },
   {
     content: "Below is the link to my personal reposity, this entire website and most of my work is available on my public GitHub repositories",
     title: "Github",
     link: "https://github.com/lsw3961?tab=repositories",
     image: "./github.png",
-    index: 8
-  },
-  {
-    content: "This website is my example for React use as this website was built using React JS",
-    title: "React",
-    link: "",
-    image: "",
-    index: 9
-
+    index: 8,
   },
   {
     content: "This website is my example for working with Node and was built using it.",
     title: "Node",
     link: "",
     image: "",
-    index: 10
-  },
-  {
-    content: "The Icon at the top of the page as well as this design here are just some of my examples for the kind of work that I have done.",
-    title: "Photoshop/Illustrator",
-    link: "http://www.freepik.com",
-    image: "./comingSoon.jpg",
-    index: 11
+    index: 9,
   },
 ];
 
