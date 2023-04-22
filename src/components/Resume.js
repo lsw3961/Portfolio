@@ -12,7 +12,7 @@ export default function Resume() {
                         Resume
                     </h1>
                     <div className="flex items-center justify-center">
-                        <iframe src="https://drive.google.com/file/d/1-nWl9ufLRFS4sTgHQRbIRQSw9jce6Zb5/preview" width="640" height="480" allow="autoplay"></iframe>
+                        <iframe src="https://drive.google.com/file/d/1vzQAS2nJpt_XE--wudYFuk70OA9UQFDx/preview" width="640" height="480" allow="autoplay"></iframe>
                     </div>
                 </div>
             </div>
