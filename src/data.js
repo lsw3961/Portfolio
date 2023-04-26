@@ -4,7 +4,7 @@ export const projects = [
     subtitle: "Passion Project",
     description:
       "3D puzzle platformer developed in Unreal Engine 5. This game is all about sucking up different elements and using them to traverse the world. Do you have what it takes to save the world?",
-    image: "./theLegendofGeoffry.png",
+    image: "/theLegendofGeoffry.png",
     bullets: ["•	Lead a team of 6 developers and designers in the rapid development of a 3D puzzle/shooter created and prototyped in Unreal Engine 5.",
               "•	Used Niagara, UMG/Slate, and Blueprints to create particle effects, UI/UX interfaces, and gameplay loops and structures.",
               "•	Employed Interfaces and Unreal Engines Event system to keep overhead low and enable a robust easily expandable code architecture.",
