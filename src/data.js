@@ -48,7 +48,7 @@ export const skills = [
     content: "Games like Dreamcatcher and the current IP I am working on are the products of my AI gameplay programming. I very interested in building the tools that let designers create fun and interesting AIs without having to alter code themselves. Checkout my latest project to see how far my AI programming can go!",
     title: "AI Gameplay Programming",
     link: "http://www.freepik.com",
-    image: "./comingSoon.jpg",
+    image: "",
     index: 0
   },
   {
@@ -63,7 +63,7 @@ export const skills = [
     content: "Every project I have done is a representation of my gameplay development. I am a programmer first and I have always focused on putting forward clean, readable, and easily modifyable code.",
     title: "Game Application Development",
     link: "http://www.freepik.com",
-    image: "./comingSoon.jpg",
+    image: "",
     index: 2
   },
   {
@@ -77,7 +77,7 @@ export const skills = [
     content: "C# is my most comforatble language and I have been working in it for 4 years now. I have experience using multiple engines from Unity to VMC and am very comfrotable reading and debuging almost all C# code.",
     title: "C#",
     link: "",
-    image: "./temp1.png",
+    image: "",
     index: 4
   },
   {
@@ -88,7 +88,7 @@ export const skills = [
     index: 5
   },
   {
-    content: "I have been programming in C++ for 6 years and have worked with everything from OpenGL to Unreal Engine. I've done multithreading, AI Pathfinding, OOP Strategies and more.",
+    content: "I have been programming in C++ for 7 years and have worked with everything from OpenGL to Unreal Engine. I've done multithreading, AI Pathfinding, OOP and more.",
     title: "C++",
     link: "",
     image: "",
