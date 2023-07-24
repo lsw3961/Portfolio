@@ -9,7 +9,7 @@ export const projects = [
               "•	Used Niagara, UMG/Slate, and Blueprints to create particle effects, UI/UX interfaces, and gameplay loops and structures.",
               "•	Employed Interfaces and Unreal Engines Event system to keep overhead low and enable a robust easily expandable code architecture.",
               "•	Worked Remotely with a team that spanned across the United States using GitHub for version control."],
-    link: "https://lwhite322.itch.io/crystals-towers",
+    link: "https://youtu.be/L4Q7QYzCnQI",
     css: "",
     imageCSS: "absolute inset-0 w-full h-48 object-cover object-center"
   },
