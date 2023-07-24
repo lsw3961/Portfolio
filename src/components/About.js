@@ -7,13 +7,13 @@ export default function About() {
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
             Hi, I'm Logan!
-            <br className="hidden lg:inline-block" />Gameplay Engineer specializing in AI
+            <br className="hidden lg:inline-block" />Contract Gameplay Engineer 
           </h1>
           <p className="mb-8 leading-relaxed">
-            I am a graduating student of RIT class of 2023 with a degree in Game
-            Design and Development and a minor in Mobile Development. I am a gameplay engineer who focuses in AI progamming.
-            I am an avid learner and I am always looking for new connections and friends in the game development space.
-             Please enjoy my porfolio and be sure to contact me and make a new friend!
+            I am an RIT graduate with a a degree in 
+            Design and Development and a minor in Mobile Development. I am a gameplay engineer who loves to learn and grow.
+            Currently I am working as a contract gameplay engineer and in my freetime working on a 3rd person action adventure superhero 
+            game called "Phasebound: A Heroes Journey".
           </p>
           <div className="flex justify-center">
             <a
