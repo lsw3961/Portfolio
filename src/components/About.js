@@ -10,7 +10,7 @@ export default function About() {
             <br className="hidden lg:inline-block" />Contract Gameplay Engineer 
           </h1>
           <p className="mb-8 leading-relaxed">
-            I am an RIT graduate with a a degree in 
+            I am an RIT graduate with a degree in Game
             Design and Development and a minor in Mobile Development. I am a gameplay engineer who loves to learn and grow.
             Currently I am working as a contract gameplay engineer and in my freetime working on a 3rd person action adventure superhero 
             game called "Phasebound: A Heroes Journey".
